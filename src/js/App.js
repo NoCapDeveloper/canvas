@@ -1,7 +1,7 @@
 import Mouse from './Mouse.js';
 import Keyboard from './Keyboard.js';
 
-class Game {
+class App {
   constructor() {
     window.addEventListener('resize', () => this.handleResize());
     document.addEventListener('contextmenu', e => e.preventDefault());
@@ -41,4 +41,4 @@ class Game {
   }
 }
 
-export default Game;
+export default App;

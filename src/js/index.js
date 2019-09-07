@@ -1,3 +1,3 @@
-import App from './Game';
+import App from './App';
 
 App().tick();  
